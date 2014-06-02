@@ -1,0 +1,50 @@
+﻿
+div{
+    padding:10px;
+    text-align:center;
+}
+
+h1.iframe-h1{
+    color:#ffd800;
+    text-shadow:1px 1px 10px #000000;
+    font-family:'Kristen ITC';
+    padding:0;
+    margin:-15px 0 0 0;
+}
+
+p.iframe-p{
+    font-size:16px;            
+}
+
+img{
+    width:30%;
+    padding:0;
+    margin:0;}
+
+iframe{
+    width:80%;
+    height:330px;
+    border-radius:20px;    
+    background-color:rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: -1px -1px 40px #5b3f06;
+       -moz-box-shadow: -1px -1px 40px #5b3f06;
+            box-shadow: -1px -1px 40px #5b3f06;
+    border:none;
+}
+
+@media only screen and (max-width:768px){
+    iframe{
+        margin-top:10%;
+        height:260px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    iframe{
+        height:260px;
+    }
+
+    h1.iframe-h1{
+            font-size:15px;
+        }
+}
